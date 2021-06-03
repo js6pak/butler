@@ -693,12 +693,14 @@
           {
             "name": "game",
             "doc": "Game whose builds we should look for",
-            "type": "Game"
+            "type": "Game",
+            "optional": false
           },
           {
             "name": "upload",
             "doc": "Upload whose builds we should look for",
-            "type": "Upload"
+            "type": "Upload",
+            "optional": false
           }
         ]
       },
@@ -707,7 +709,8 @@
           {
             "name": "builds",
             "doc": "List of builds",
-            "type": "Build[]"
+            "type": "Build[]",
+            "optional": false
           }
         ]
       }
